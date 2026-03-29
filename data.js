@@ -301,7 +301,7 @@ const wordList= [
   { eng: "owe", kor: "빚지고 있다" },
   { eng: "intend", kor: "~할 작정이다, 의도하다" },
   { eng: "aspect", kor: "면, 관점" },
-  { eng: "potential", kor: "잠재적인잠재력" },
+  { eng: "potential", kor: "잠재적인,잠재력" },
   { eng: "award", kor: "상(상 등을) 수여하다" },
   { eng: "preserve", kor: "보존하다, 보호하다" },
   { eng: "spot", kor: "장소, 점발견하다" },
