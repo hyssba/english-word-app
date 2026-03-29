@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수능 영단어 암기장</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <select id="range-selector"></select>
+                <button id="star-btn" onclick="toggleStar()">☆</button>
+            </div>
+            <h1 id="word-display">Word</h1>
+            <input type="text" id="answer-input" placeholder="뜻을 입력하세요" autocomplete="off">
+            <div class="button-group">
+                <button onclick="checkAnswer()">확인</button>
+                <button id="next-btn" onclick="nextWord()">다음 단어</button>
+            </div>
+            <p id="result-text"></p>
+            <button id="star-view-btn" onclick="toggleStarView()">★ 모아보기 (0)</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
